@@ -1,6 +1,6 @@
-const { Model, DataTypes, Sequelize } = require('sequelize');
+const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
-const bcrypt = require('bcyrpt');
+const bcrypt = require('bcryptjs');
 
 class User extends Model {
     checkPassword(loginPW) {
@@ -8,7 +8,7 @@ class User extends Model {
     }
 }
 
-User.initial(
+User.init(
     {
         id: {
             type: DataTypes.INTEGER,

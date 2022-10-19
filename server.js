@@ -28,7 +28,6 @@ const sess = {
         db:sequelize
     })
 };
-//<><><><><><><><><><><><><><><><><><><><><><><><><><><>
 
 //handlebars
 app.engine('handlebars',hbs.engine);
