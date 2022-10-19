@@ -20,5 +20,13 @@
     "express-session": "^1.17.3",
     "mysql2": "^2.3.3",
     "sequelize": "^6.3.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deand925/Tech_Blog_DB.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deand925/Tech_Blog_DB/issues"
+  },
+  "homepage": "https://github.com/deand925/Tech_Blog_DB#readme"
 }
